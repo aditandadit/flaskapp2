@@ -1,0 +1,21 @@
+name: flaskapp
+channels:
+- defaults
+dependencies:
+- pip=9.0.1=py27_1
+- python=2.7.13=1
+- setuptools=27.2.0=py27_1
+- vs2008_runtime=9.00.30729.5054=0
+- wheel=0.29.0=py27_0
+- pip:
+  - beautifulsoup==3.2.1
+  - captionbot==0.1.4
+  - click==6.7
+  - flask==0.12.2
+  - itsdangerous==0.24
+  - jinja2==2.9.6
+  - markupsafe==1.0
+  - requests==2.14.2
+  - werkzeug==0.12.2
+
+
